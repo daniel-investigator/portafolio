@@ -2,21 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.contenido {
+  margin-top: auto;
+  margin-bottom: auto;
+  float: left;
+  display: grid;
 }
 
-.App-header {
+.header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 60px;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.button{
+  display:inline-block;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-decoration:none;
+}
+
+.info{
+	background-color:#a73f2d;
+	color:#ffffff;
+}
+
+.fondo{
+	background-color:#035AA6;
+	color:#ffffff;
+}
+
+.stage {
+  height: 100vh;
+  width: 100vw;
+  background-color:#31353D;
+	color:#ffffff;
+  display: block;
+}
+
+.stage_2{
+  height: 100vh;
+  width: 100vw;
+  background-color:#EEEFF7;
+	color:#ffffff;
+  display: block;
 }
